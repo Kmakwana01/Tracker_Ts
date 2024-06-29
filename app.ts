@@ -7,6 +7,7 @@ import dotenv from 'dotenv'
 import { mongodbConnection } from './database/db';
 import cors from 'cors';
 
+
 mongodbConnection()
 
 dotenv.config()
